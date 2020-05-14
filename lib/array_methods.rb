@@ -1,11 +1,6 @@
 def using_include(array, element)
-  round_things=["ball", "sun", "orange"]
-  round_things.include?("sun")
+  array.include?(element)
 end
-def using_include(array, element)
-  round_things=["ball", "sun", "orange"]
-  round_things.include?("moon")
-end  
 
 def using_sort(array)
 
